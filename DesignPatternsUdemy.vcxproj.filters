@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Adapter">
+      <UniqueIdentifier>{bcbffdf4-f0ff-40aa-9e3b-24b0ece9d621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Bridge">
+      <UniqueIdentifier>{72a5705c-2708-4d1b-9498-891baaf2e198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Factories">
+      <UniqueIdentifier>{300e04e1-f48b-4d2b-a6b2-4b4a58650837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Prototype">
+      <UniqueIdentifier>{0425f26d-86b3-47c5-86fc-ecb3dec45030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Singleton">
+      <UniqueIdentifier>{a036a954-4042-4e3e-8d6a-bb928faf5ef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\SOLID">
+      <UniqueIdentifier>{f3a9e0ec-3964-4fea-8fa5-48a617f33af6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\State">
+      <UniqueIdentifier>{fdaa8031-d8b5-4b34-855e-9500292d52d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Builder">
+      <UniqueIdentifier>{1407bd3b-fc2d-4f00-b0e8-7790d44dfaf5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Adapter\Adapter.h">
+      <Filter>Файлы заголовков\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Bridge\Bridge.h">
+      <Filter>Файлы заголовков\Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Bridge\HomeTaskBridge.h">
+      <Filter>Файлы заголовков\Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Bridge\PersonB.h">
+      <Filter>Файлы заголовков\Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Builder\Builder.h">
+      <Filter>Файлы заголовков\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Factories\DrinkFactory.h">
+      <Filter>Файлы заголовков\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Factories\HomeTaskFactory.h">
+      <Filter>Файлы заголовков\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Factories\HotDrink.h">
+      <Filter>Файлы заголовков\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Factories\HotDrinkFactory.h">
+      <Filter>Файлы заголовков\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Factories\PointFactory.h">
+      <Filter>Файлы заголовков\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Prototype\HomeTaskPrototype.h">
+      <Filter>Файлы заголовков\Prototype</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Prototype\Prototype.h">
+      <Filter>Файлы заголовков\Prototype</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Singleton\HomeTaskSingleton.h">
+      <Filter>Файлы заголовков\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Singleton\Monostate.h">
+      <Filter>Файлы заголовков\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Singleton\Singleton.h">
+      <Filter>Файлы заголовков\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Singleton\SingletonDI.h">
+      <Filter>Файлы заголовков\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SOLID\DependencyInversion.h">
+      <Filter>Файлы заголовков\SOLID</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SOLID\InterfaceSegregation.h">
+      <Filter>Файлы заголовков\SOLID</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SOLID\LiskovSubstitution.h">
+      <Filter>Файлы заголовков\SOLID</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SOLID\Open-Closed.h">
+      <Filter>Файлы заголовков\SOLID</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SOLID\SingleResponsibility.h">
+      <Filter>Файлы заголовков\SOLID</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\State\HandmadeStateMachine.h">
+      <Filter>Файлы заголовков\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\State\HomeTaskState.h">
+      <Filter>Файлы заголовков\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\State\StateMachine.h">
+      <Filter>Файлы заголовков\State</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DesignPatternsUdemy.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\SOLID\SingleResponsibilityTest.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\SOLID\OpenClosedTest.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\SOLID\LiskovSubstitutionTest.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\SOLID\InterfaceSegregationTest.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\SOLID\DependencyInversionTest.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
